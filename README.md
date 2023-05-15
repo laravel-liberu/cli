@@ -6,9 +6,9 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/cli/downloads)](https://packagist.org/packages/laravel-enso/cli)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/cli/version)](https://packagist.org/packages/laravel-enso/cli)
 
-Resource generation CLI dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Resource generation CLI dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
@@ -18,11 +18,11 @@ For live examples and demos, you may visit [laravel-enso.com](https://www.larave
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
-- comes with an easy to use CLI for the creation of Enso resources
+- comes with an easy to use CLI for the creation of Liberu resources
 - can be used to easily insert (default) data, during the install of a package, or later when new routes and permissions are required and can create menus, assign default permissions, etc.
 - when adding menus and permissions, automatic access for the administrator role is added
 - for adding menus and permissions the package relies on laravel-enso/migrator
