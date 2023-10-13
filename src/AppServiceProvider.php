@@ -16,14 +16,14 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/model.php', 'enso.structures.model');
-        $this->mergeConfigFrom(__DIR__.'/../config/menu.php', 'enso.structures.menu');
-        $this->mergeConfigFrom(__DIR__.'/../config/permissions.php', 'enso.structures.permissions');
-        $this->mergeConfigFrom(__DIR__.'/../config/package.php', 'enso.structures.package');
-        $this->mergeConfigFrom(__DIR__.'/../config/params.php', 'enso.structures.params');
-        $this->mergeConfigFrom(__DIR__.'/../config/files.php', 'enso.structures.files');
+        $this->mergeConfigFrom(__DIR__.'/../config/model.php', 'liberu.structures.model');
+        $this->mergeConfigFrom(__DIR__.'/../config/menu.php', 'liberu.structures.menu');
+        $this->mergeConfigFrom(__DIR__.'/../config/permissions.php', 'liberu.structures.permissions');
+        $this->mergeConfigFrom(__DIR__.'/../config/package.php', 'liberu.structures.package');
+        $this->mergeConfigFrom(__DIR__.'/../config/params.php', 'liberu.structures.params');
+        $this->mergeConfigFrom(__DIR__.'/../config/files.php', 'liberu.structures.files');
         $this->mergeConfigFrom(
-            __DIR__.'/../config/permissionGroup.php', 'enso.structures.permissionGroup'
+            __DIR__.'/../config/permissionGroup.php', 'liberu.structures.permissionGroup'
         );
 
         return $this;
@@ -32,8 +32,8 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso/structures'),
-        ], ['cli-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu/structures'),
+        ], ['cli-config', 'liberu-config']);
 
         return $this;
     }

@@ -47,12 +47,12 @@ class StructureWriterTest extends TestCase
     /** @test */
     public function can_generate_package()
     {
-        $this->root = 'vendor/laravel-enso/testing';
+        $this->root = 'vendor/laravel-liberu/testing';
         $this->rootSegment = 'src';
 
         $this->choices->set('package', new Obj([
             'name' => 'testing',
-            'vendor' => 'laravel-enso',
+            'vendor' => 'laravel-liberu',
             'providers' => true,
             'config' => true,
         ]));

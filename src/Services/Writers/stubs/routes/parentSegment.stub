@@ -1,7 +1,7 @@
-import routeImporter from '@enso-ui/ui/src/modules/importers/routeImporter';
+import routeImporter from '@liberu-ui/ui/src/modules/importers/routeImporter';
 
 const routes = routeImporter(require.context('./${segment}', false, /.*\.js$/));
-const RouterView = () => import('@enso-ui/ui/src/bulma/pages/Router.vue');
+const RouterView = () => import('@liberu-ui/ui/src/bulma/pages/Router.vue');
 
 export default {
     path: '${relativePath}',

@@ -145,7 +145,7 @@ class Choices
 
     private function attributes($choice)
     {
-        return new Obj(config('enso.structures.'.Str::camel($choice).'.attributes'));
+        return new Obj(config('liberu.structures.'.Str::camel($choice).'.attributes'));
     }
 
     private function load()

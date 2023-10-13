@@ -35,7 +35,7 @@ class PackageTest extends TestCase
         $this->write(Package::class);
 
         $this->assertCliFileContains([
-            '"name": "enso/cli"',
+            '"name": "liberu/cli"',
             '"Enso\\\\Cli\\\\": "src/"',
             '"Enso\\\\Cli\\\\AppServiceProvider"',
             '"Enso\\\\Cli\\\\AuthServiceProvider"',
@@ -47,7 +47,7 @@ class PackageTest extends TestCase
     {
         $this->write(Package::class);
 
-        $this->assertCliFileContains('###  enso - cli', 'README.md');
+        $this->assertCliFileContains('###  liberu - cli', 'README.md');
     }
 
     /** @test */
@@ -55,7 +55,7 @@ class PackageTest extends TestCase
     {
         $this->write(Package::class);
 
-        $this->assertCliFileContains('Copyright (c) '.now()->format('Y').' enso', ['LICENSE']);
+        $this->assertCliFileContains('Copyright (c) '.now()->format('Y').' liberu', ['LICENSE']);
     }
 
     /** @test */
@@ -90,7 +90,7 @@ class PackageTest extends TestCase
     {
         return new Obj([
             'package' => [
-                'vendor' => 'enso',
+                'vendor' => 'liberu',
                 'name' => 'cli',
             ],
         ]);

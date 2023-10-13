@@ -11,7 +11,7 @@ use LaravelLiberu\Cli\Services\Status;
 
 class Cli extends Command
 {
-    protected $signature = 'enso:cli';
+    protected $signature = 'liberu:cli';
     protected $description = 'Create a new Laravel Enso Structure';
 
     private Choices $choices;

@@ -60,7 +60,7 @@ class Config
     {
         $structure = Str::camel($choice);
 
-        return new Collection(config("enso.structures.{$structure}.requires"));
+        return new Collection(config("liberu.structures.{$structure}.requires"));
     }
 
     private function display(string $choice)

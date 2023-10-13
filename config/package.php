@@ -4,7 +4,7 @@ return [
     'requires' => ['Model', 'Permissions'],
     'attributes' => [
         'name' => null,
-        'vendor' => 'laravel-enso',
+        'vendor' => 'laravel-liberu',
         'config' => false,
         'providers' => false,
     ],

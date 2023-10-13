@@ -24,7 +24,7 @@ class CliTest extends TestCase
 
         $this->root = '';
 
-        Config::set("enso.structures{Str::camel({$this->choice})}.attributes", ['name' => null]);
+        Config::set("liberu.structures{Str::camel({$this->choice})}.attributes", ['name' => null]);
     }
 
     protected function tearDown(): void
@@ -42,7 +42,7 @@ class CliTest extends TestCase
         $dependent = $this->dependent();
         $requirements = $this->config($dependent)->implode(', ');
 
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Choose element to configure', $dependent)
             ->expectsOutput('You must configure first: '.$requirements)
             ->expectsQuestion('Choose element to configure', Options::Exit);
@@ -58,7 +58,7 @@ class CliTest extends TestCase
             'validates' => true,
         ]);
 
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Do you want to restore the last session?', 'yes')
             ->expectsQuestion('Choose element to configure', Options::Exit);
     }
@@ -66,7 +66,7 @@ class CliTest extends TestCase
     /** @test */
     public function can_save_after_choice_was_configured()
     {
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Choose element to configure', $this->choice)
             ->expectsQuestion('Configure '.$this->choice, true)
             ->expectsQuestion('name', 'test')
@@ -78,7 +78,7 @@ class CliTest extends TestCase
     /** @test */
     public function can_remove_saved_session_after_generate()
     {
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Choose element to configure', $this->choice)
             ->expectsQuestion('Configure '.$this->choice, true)
             ->expectsQuestion('name', 'test')
@@ -90,7 +90,7 @@ class CliTest extends TestCase
     /** @test */
     public function cannot_generate_with_nothing_configured()
     {
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Choose element to configure', Options::Generate)
             ->expectsOutput('There is nothing configured yet!')
             ->expectsQuestion('Choose element to configure', Options::Exit);
@@ -99,7 +99,7 @@ class CliTest extends TestCase
     /** @test */
     public function cannot_generate_with_failed_validation()
     {
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Choose element to configure', Options::Model)
             ->expectsQuestion('Configure '.Options::Model, true)
             ->expectsQuestion('name', 'test\\test')
@@ -111,7 +111,7 @@ class CliTest extends TestCase
     /** @test */
     public function can_generate_with_disabled_validation()
     {
-        $this->artisan('enso:cli')
+        $this->artisan('liberu:cli')
             ->expectsQuestion('Choose element to configure', Options::Model)
             ->expectsQuestion('Configure '.Options::Model, true)
             ->expectsQuestion('name', 'test\\test')
@@ -129,7 +129,7 @@ class CliTest extends TestCase
     private function config($choice)
     {
         return new Collection(
-            config('enso.structures.'.Str::camel($choice).'.requires')
+            config('liberu.structures.'.Str::camel($choice).'.requires')
         );
     }
 }
