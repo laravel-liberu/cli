@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Form;
+namespace LaravelLiberu\Cli\Services\Writers\Form;
 
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Writers\Helpers\Controller as BaseController;
-use LaravelEnso\Cli\Services\Writers\Helpers\Namespacer;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Controller as BaseController;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Namespacer;
 
 class Controller extends BaseController
 {

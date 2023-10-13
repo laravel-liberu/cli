@@ -1,18 +1,18 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers;
+namespace LaravelLiberu\Cli\Services\Writers;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Directory;
-use LaravelEnso\Cli\Services\Writers\Helpers\EnsoStructure\Mapping;
-use LaravelEnso\Cli\Services\Writers\Helpers\EnsoStructure\Permissions;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Directory;
+use LaravelLiberu\Cli\Services\Writers\Helpers\EnsoStructure\Mapping;
+use LaravelLiberu\Cli\Services\Writers\Helpers\EnsoStructure\Permissions;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class EnsoStructure implements StubProvider
 {

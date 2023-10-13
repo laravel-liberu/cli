@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
-use LaravelEnso\Cli\Enums\Options;
+use LaravelLiberu\Cli\Enums\Options;
 
 class Status
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers;
+namespace LaravelLiberu\Cli\Services\Writers;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Contracts\PreparesBulkWriting;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Cli\Services\Writers\Routes\CrudRoutes;
-use LaravelEnso\Cli\Services\Writers\Routes\SegmentRoutes;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Contracts\PreparesBulkWriting;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Cli\Services\Writers\Routes\CrudRoutes;
+use LaravelLiberu\Cli\Services\Writers\Routes\SegmentRoutes;
 
 class Routes implements BulkProvider, PreparesBulkWriting
 {

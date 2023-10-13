@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Exceptions\WriterProvider;
-use LaravelEnso\Cli\Services\StubWriters\BulkWriter;
-use LaravelEnso\Cli\Services\StubWriters\Writer;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Exceptions\WriterProvider;
+use LaravelLiberu\Cli\Services\StubWriters\BulkWriter;
+use LaravelLiberu\Cli\Services\StubWriters\Writer;
 
 class WriterFactory
 {

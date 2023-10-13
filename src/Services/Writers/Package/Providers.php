@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Package;
+namespace LaravelLiberu\Cli\Services\Writers\Package;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Services\Choices;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Services\Choices;
 
 class Providers implements BulkProvider
 {

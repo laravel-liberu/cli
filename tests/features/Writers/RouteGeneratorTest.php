@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\RouteGenerator;
-use LaravelEnso\Cli\Tests\Cli;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\RouteGenerator;
+use LaravelLiberu\Cli\Tests\Cli;
+use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
 class RouteGeneratorTest extends TestCase

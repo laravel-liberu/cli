@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Validators;
+namespace LaravelLiberu\Cli\Services\Validators;
 
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Model extends Validator
 {

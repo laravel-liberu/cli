@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Routes;
+namespace LaravelLiberu\Cli\Services\Writers\Routes;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
 
 class SegmentRoutes implements BulkProvider
 {

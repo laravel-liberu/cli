@@ -4,10 +4,10 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Structure;
-use LaravelEnso\Cli\Tests\Cli;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Structure;
+use LaravelLiberu\Cli\Tests\Cli;
+use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
 class StructureWriterTest extends TestCase

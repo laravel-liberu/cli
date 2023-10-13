@@ -2,11 +2,11 @@
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Routes;
-use LaravelEnso\Cli\Tests\Cli;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Routes;
+use LaravelLiberu\Cli\Tests\Cli;
+use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
 class RouteTest extends TestCase

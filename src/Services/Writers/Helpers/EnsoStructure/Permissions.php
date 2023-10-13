@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Helpers\EnsoStructure;
+namespace LaravelLiberu\Cli\Services\Writers\Helpers\EnsoStructure;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Permissions
 {

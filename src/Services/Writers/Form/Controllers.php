@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Form;
+namespace LaravelLiberu\Cli\Services\Writers\Form;
 
-use LaravelEnso\Cli\Services\Writers\Helpers\Controller as BaseController;
-use LaravelEnso\Cli\Services\Writers\Helpers\Controllers as BaseControllers;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Controller as BaseController;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Controllers as BaseControllers;
 
 class Controllers extends BaseControllers
 {

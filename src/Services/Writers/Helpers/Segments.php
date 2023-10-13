@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Helpers;
+namespace LaravelLiberu\Cli\Services\Writers\Helpers;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Segments
 {

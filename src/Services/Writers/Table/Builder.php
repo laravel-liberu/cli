@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Table;
+namespace LaravelLiberu\Cli\Services\Writers\Table;
 
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Directory;
-use LaravelEnso\Cli\Services\Writers\Helpers\Namespacer;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Directory;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Namespacer;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Builder implements StubProvider
 {

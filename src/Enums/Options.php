@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Cli\Enums;
+namespace LaravelLiberu\Cli\Enums;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Options extends Enum
 {

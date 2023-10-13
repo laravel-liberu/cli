@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Views;
-use LaravelEnso\Cli\Tests\Cli;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Views;
+use LaravelLiberu\Cli\Tests\Cli;
+use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
 class ViewsTest extends TestCase

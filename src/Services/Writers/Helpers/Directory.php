@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Helpers;
+namespace LaravelLiberu\Cli\Services\Writers\Helpers;
 
 use Illuminate\Support\Facades\File;
 

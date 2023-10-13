@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers;
+namespace LaravelLiberu\Cli\Services\Writers;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Cli\Services\Writers\Package\Config;
-use LaravelEnso\Cli\Services\Writers\Package\Providers;
-use LaravelEnso\Cli\Services\Writers\Package\Resources;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Cli\Services\Writers\Package\Config;
+use LaravelLiberu\Cli\Services\Writers\Package\Providers;
+use LaravelLiberu\Cli\Services\Writers\Package\Resources;
 
 class Package implements BulkProvider
 {

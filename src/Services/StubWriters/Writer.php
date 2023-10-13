@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\StubWriters;
+namespace LaravelLiberu\Cli\Services\StubWriters;
 
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Contracts\Writer as Contract;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Contracts\Writer as Contract;
 
 class Writer implements Contract
 {

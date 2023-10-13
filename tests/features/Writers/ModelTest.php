@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\StubWriters\Writer;
-use LaravelEnso\Cli\Services\Writers\Model;
-use LaravelEnso\Cli\Tests\Cli;
+use LaravelLiberu\Cli\Services\StubWriters\Writer;
+use LaravelLiberu\Cli\Services\Writers\Model;
+use LaravelLiberu\Cli\Tests\Cli;
 use Tests\TestCase;
 
 class ModelTest extends TestCase

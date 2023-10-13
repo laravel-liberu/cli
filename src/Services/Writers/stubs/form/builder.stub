@@ -3,7 +3,7 @@
 namespace ${namespace};
 
 use ${modelNamespace}\${Model} as Model;
-use LaravelEnso\Forms\Services\Form;
+use LaravelLiberu\Forms\Services\Form;
 
 class ${Model}
 {

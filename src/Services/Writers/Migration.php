@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers;
+namespace LaravelLiberu\Cli\Services\Writers;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Directory;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Directory;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Migration
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Enums\Options;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Enums\Options;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Config
 {

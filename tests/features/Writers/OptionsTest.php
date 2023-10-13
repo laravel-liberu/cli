@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\StubWriters\Writer;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Options;
-use LaravelEnso\Cli\Tests\Cli;
+use LaravelLiberu\Cli\Services\StubWriters\Writer;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Options;
+use LaravelLiberu\Cli\Tests\Cli;
 use Tests\TestCase;
 
 class OptionsTest extends TestCase

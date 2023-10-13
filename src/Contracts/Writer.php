@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Cli\Contracts;
+namespace LaravelLiberu\Cli\Contracts;
 
 interface Writer
 {

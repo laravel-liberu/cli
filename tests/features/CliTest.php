@@ -4,9 +4,9 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Enums\Options;
-use LaravelEnso\Cli\Tests\Cli;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Enums\Options;
+use LaravelLiberu\Cli\Tests\Cli;
+use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
 class CliTest extends TestCase

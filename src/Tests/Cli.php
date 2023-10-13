@@ -1,18 +1,18 @@
 <?php
 
-namespace LaravelEnso\Cli\Tests;
+namespace LaravelLiberu\Cli\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\WriterFactory;
-use LaravelEnso\Cli\Services\Writers\Helpers\Namespacer;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\WriterFactory;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Namespacer;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Helpers\Services\Obj;
 
 trait Cli
 {

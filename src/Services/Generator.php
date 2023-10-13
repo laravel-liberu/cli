@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Writers\RouteGenerator;
+use LaravelLiberu\Cli\Services\Writers\RouteGenerator;
 
 class Generator
 {

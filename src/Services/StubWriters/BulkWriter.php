@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\StubWriters;
+namespace LaravelLiberu\Cli\Services\StubWriters;
 
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Contracts\PreparesBulkWriting;
-use LaravelEnso\Cli\Contracts\Writer as Contract;
-use LaravelEnso\Cli\Services\WriterFactory;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Contracts\PreparesBulkWriting;
+use LaravelLiberu\Cli\Contracts\Writer as Contract;
+use LaravelLiberu\Cli\Services\WriterFactory;
 
 class BulkWriter implements Contract
 {

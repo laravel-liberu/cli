@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Package;
+namespace LaravelLiberu\Cli\Services\Writers\Package;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Directory;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Directory;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Resource implements StubProvider
 {

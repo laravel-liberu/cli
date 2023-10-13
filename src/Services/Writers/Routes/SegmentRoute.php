@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Routes;
+namespace LaravelLiberu\Cli\Services\Writers\Routes;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Directory;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Directory;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
 
 class SegmentRoute implements StubProvider
 {

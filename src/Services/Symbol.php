@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
 class Symbol
 {

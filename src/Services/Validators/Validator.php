@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Validators;
+namespace LaravelLiberu\Cli\Services\Validators;
 
 use Illuminate\Support\Collection;
 

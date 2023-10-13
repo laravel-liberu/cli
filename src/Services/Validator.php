@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Enums\Validators;
+use LaravelLiberu\Cli\Enums\Validators;
 
 class Validator
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Validators;
+namespace LaravelLiberu\Cli\Services\Validators;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Menus\Models\Menu as Model;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Menus\Models\Menu as Model;
 
 class Menu extends Validator
 {

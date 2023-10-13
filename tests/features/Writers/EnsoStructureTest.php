@@ -3,11 +3,11 @@
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\StubWriters\Writer;
-use LaravelEnso\Cli\Services\Writers\EnsoStructure;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Tests\Cli;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\StubWriters\Writer;
+use LaravelLiberu\Cli\Services\Writers\EnsoStructure;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Tests\Cli;
+use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
 class EnsoStructureTest extends TestCase

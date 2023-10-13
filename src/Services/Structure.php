@@ -1,22 +1,22 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Services\Writers\EnsoStructure;
-use LaravelEnso\Cli\Services\Writers\Form;
-use LaravelEnso\Cli\Services\Writers\Helpers\Namespacer;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Migration;
-use LaravelEnso\Cli\Services\Writers\Model;
-use LaravelEnso\Cli\Services\Writers\Options;
-use LaravelEnso\Cli\Services\Writers\Package;
-use LaravelEnso\Cli\Services\Writers\Routes;
-use LaravelEnso\Cli\Services\Writers\Table;
-use LaravelEnso\Cli\Services\Writers\Views;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Services\Writers\EnsoStructure;
+use LaravelLiberu\Cli\Services\Writers\Form;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Namespacer;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Migration;
+use LaravelLiberu\Cli\Services\Writers\Model;
+use LaravelLiberu\Cli\Services\Writers\Options;
+use LaravelLiberu\Cli\Services\Writers\Package;
+use LaravelLiberu\Cli\Services\Writers\Routes;
+use LaravelLiberu\Cli\Services\Writers\Table;
+use LaravelLiberu\Cli\Services\Writers\Views;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Structure
 {

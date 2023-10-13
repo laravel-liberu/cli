@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Cli\Services;
+namespace LaravelLiberu\Cli\Services;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Enums\Options;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Enums\Options;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Choices
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Table;
+namespace LaravelLiberu\Cli\Services\Writers\Table;
 
-use LaravelEnso\Cli\Services\Writers\Helpers\Controller as BaseController;
-use LaravelEnso\Cli\Services\Writers\Helpers\Namespacer;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Controller as BaseController;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Namespacer;
 
 class Controller extends BaseController
 {

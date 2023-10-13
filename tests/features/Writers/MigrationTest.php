@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Cli\Services\Writers\Migration;
-use LaravelEnso\Cli\Tests\Cli;
+use LaravelLiberu\Cli\Services\Writers\Migration;
+use LaravelLiberu\Cli\Tests\Cli;
 use Tests\TestCase;
 
 class MigrationTest extends TestCase

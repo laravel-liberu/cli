@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Cli\Enums;
+namespace LaravelLiberu\Cli\Enums;
 
-use LaravelEnso\Cli\Services\Validators\Menu;
-use LaravelEnso\Cli\Services\Validators\Model;
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Cli\Services\Validators\Menu;
+use LaravelLiberu\Cli\Services\Validators\Model;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Validators extends Enum
 {

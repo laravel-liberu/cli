@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Cli\Commands;
+namespace LaravelLiberu\Cli\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Cli\Enums\Options;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Config;
-use LaravelEnso\Cli\Services\Generator;
-use LaravelEnso\Cli\Services\Status;
+use LaravelLiberu\Cli\Enums\Options;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Config;
+use LaravelLiberu\Cli\Services\Generator;
+use LaravelLiberu\Cli\Services\Status;
 
 class Cli extends Command
 {

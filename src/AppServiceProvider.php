@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Cli;
+namespace LaravelLiberu\Cli;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Cli\Commands\Cli;
+use LaravelLiberu\Cli\Commands\Cli;
 
 class AppServiceProvider extends ServiceProvider
 {

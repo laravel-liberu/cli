@@ -1,17 +1,17 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers;
+namespace LaravelLiberu\Cli\Services\Writers;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Cli\Contracts\BulkProvider;
-use LaravelEnso\Cli\Contracts\PreparesBulkWriting;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Cli\Services\Writers\Helpers\Path;
-use LaravelEnso\Cli\Services\Writers\Helpers\Segments;
-use LaravelEnso\Cli\Services\Writers\Helpers\Stub;
-use LaravelEnso\Cli\Services\Writers\Table\Builder;
-use LaravelEnso\Cli\Services\Writers\Table\Controllers;
-use LaravelEnso\Cli\Services\Writers\Table\Template;
+use LaravelLiberu\Cli\Contracts\BulkProvider;
+use LaravelLiberu\Cli\Contracts\PreparesBulkWriting;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Segments;
+use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
+use LaravelLiberu\Cli\Services\Writers\Table\Builder;
+use LaravelLiberu\Cli\Services\Writers\Table\Controllers;
+use LaravelLiberu\Cli\Services\Writers\Table\Template;
 
 class Table implements BulkProvider, PreparesBulkWriting
 {

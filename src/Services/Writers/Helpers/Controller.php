@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Cli\Services\Writers\Helpers;
+namespace LaravelLiberu\Cli\Services\Writers\Helpers;
 
 use Illuminate\Support\Str;
-use LaravelEnso\Cli\Contracts\StubProvider;
-use LaravelEnso\Cli\Services\Choices;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Cli\Contracts\StubProvider;
+use LaravelLiberu\Cli\Services\Choices;
+use LaravelLiberu\Helpers\Services\Obj;
 
 abstract class Controller implements StubProvider
 {
