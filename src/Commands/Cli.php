@@ -12,7 +12,7 @@ use LaravelLiberu\Cli\Services\Status;
 class Cli extends Command
 {
     protected $signature = 'liberu:cli';
-    protected $description = 'Create a new Laravel Enso Structure';
+    protected $description = 'Create a new Laravel Liberu Structure';
 
     private Choices $choices;
 
@@ -25,7 +25,7 @@ class Cli extends Command
 
     public function handle()
     {
-        $this->info('Create a new Laravel Enso Structure');
+        $this->info('Create a new Laravel Liberu Structure');
         $this->newLine();
 
         $this->choices->restore();

@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import { EnsoForm } from '@liberu-ui/forms/bulma';
+import { LiberuForm } from '@liberu-ui/forms/bulma';
 
 export default {
     name: 'Edit',
 
-    components: { EnsoForm },
+    components: { LiberuForm },
 };
 </script>
 

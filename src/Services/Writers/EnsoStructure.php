@@ -8,13 +8,13 @@ use Illuminate\Support\Str;
 use LaravelLiberu\Cli\Contracts\StubProvider;
 use LaravelLiberu\Cli\Services\Choices;
 use LaravelLiberu\Cli\Services\Writers\Helpers\Directory;
-use LaravelLiberu\Cli\Services\Writers\Helpers\EnsoStructure\Mapping;
-use LaravelLiberu\Cli\Services\Writers\Helpers\EnsoStructure\Permissions;
+use LaravelLiberu\Cli\Services\Writers\Helpers\LiberuStructure\Mapping;
+use LaravelLiberu\Cli\Services\Writers\Helpers\LiberuStructure\Permissions;
 use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
 use LaravelLiberu\Cli\Services\Writers\Helpers\Stub;
 use LaravelLiberu\Helpers\Services\Obj;
 
-class EnsoStructure implements StubProvider
+class LiberuStructure implements StubProvider
 {
     private ?Obj $model;
     private ?Obj $menu;

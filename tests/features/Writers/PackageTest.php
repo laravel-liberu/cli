@@ -36,9 +36,9 @@ class PackageTest extends TestCase
 
         $this->assertCliFileContains([
             '"name": "liberu/cli"',
-            '"Enso\\\\Cli\\\\": "src/"',
-            '"Enso\\\\Cli\\\\AppServiceProvider"',
-            '"Enso\\\\Cli\\\\AuthServiceProvider"',
+            '"Liberu\\\\Cli\\\\": "src/"',
+            '"Liberu\\\\Cli\\\\AppServiceProvider"',
+            '"Liberu\\\\Cli\\\\AuthServiceProvider"',
         ], ['composer.json']);
     }
 
@@ -76,12 +76,12 @@ class PackageTest extends TestCase
         $this->write(Package::class);
 
         $this->assertProvidersContains([
-            'namespace Enso\Cli',
+            'namespace Liberu\Cli',
             'class AppServiceProvider extends ServiceProvider',
         ], ['AppServiceProvider.php']);
 
         $this->assertProvidersContains([
-            'namespace Enso\Cli',
+            'namespace Liberu\Cli',
             'class AuthServiceProvider extends ServiceProvider',
         ], ['AuthServiceProvider.php']);
     }
@@ -100,7 +100,7 @@ class PackageTest extends TestCase
     {
         return new Obj([
             'root' => $this->root,
-            'namespace' => 'Enso\Cli\App',
+            'namespace' => 'Liberu\Cli\App',
             'rootSegment' => 'app',
         ]);
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLiberu\Cli\Services\Writers\Helpers\EnsoStructure;
+namespace LaravelLiberu\Cli\Services\Writers\Helpers\LiberuStructure;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

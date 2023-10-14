@@ -4,7 +4,7 @@ namespace LaravelLiberu\Cli\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelLiberu\Cli\Services\Writers\EnsoStructure;
+use LaravelLiberu\Cli\Services\Writers\LiberuStructure;
 use LaravelLiberu\Cli\Services\Writers\Form;
 use LaravelLiberu\Cli\Services\Writers\Helpers\Namespacer;
 use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
@@ -27,7 +27,7 @@ class Structure
         'form' => Form::class,
         'views' => Views::class,
         'routes' => Routes::class,
-        'structure' => EnsoStructure::class,
+        'structure' => LiberuStructure::class,
         'options' => Options::class,
         'model' => Model::class,
         'package' => Package::class,

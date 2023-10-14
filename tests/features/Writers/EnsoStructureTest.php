@@ -4,13 +4,13 @@ use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use LaravelLiberu\Cli\Services\StubWriters\Writer;
-use LaravelLiberu\Cli\Services\Writers\EnsoStructure;
+use LaravelLiberu\Cli\Services\Writers\LiberuStructure;
 use LaravelLiberu\Cli\Services\Writers\Helpers\Path;
 use LaravelLiberu\Cli\Tests\Cli;
 use LaravelLiberu\Helpers\Services\Obj;
 use Tests\TestCase;
 
-class EnsoStructureTest extends TestCase
+class LiberuStructureTest extends TestCase
 {
     use Cli;
 
@@ -40,7 +40,7 @@ class EnsoStructureTest extends TestCase
     /** @test */
     public function can_create_empty_migration()
     {
-        (new Writer(new EnsoStructure($this->choices)))->handle();
+        (new Writer(new LiberuStructure($this->choices)))->handle();
 
         $this->assertStructureMigrationContains('class CreateStructureForTestModels extends Migration');
         $this->assertStructureMigrationContains('$permissions = null');
@@ -53,7 +53,7 @@ class EnsoStructureTest extends TestCase
     {
         $this->choices->put('permissions', $this->permissions());
 
-        (new Writer(new EnsoStructure($this->choices)))->handle();
+        (new Writer(new LiberuStructure($this->choices)))->handle();
 
         $this->choices->get('permissions')->each(fn ($perm) => $this
             ->assertStructureMigrationContains("'name' => 'group.testModels.{$perm}'"));
@@ -74,7 +74,7 @@ class EnsoStructureTest extends TestCase
     {
         $this->choices->put('menu', new Obj(['parentMenu' => 'parent']));
 
-        (new Writer(new EnsoStructure($this->choices)))->handle();
+        (new Writer(new LiberuStructure($this->choices)))->handle();
 
         $this->assertStructureMigrationContains("parentMenu = 'parent'");
     }

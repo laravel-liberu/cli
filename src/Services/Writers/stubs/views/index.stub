@@ -4,12 +4,12 @@
 </template>
 
 <script>
-import { EnsoTable } from '@liberu-ui/tables/bulma';
+import { LiberuTable } from '@liberu-ui/tables/bulma';
 
 export default {
     name: 'Index',
 
-    components: { EnsoTable },
+    components: { LiberuTable },
 };
 </script>
 
